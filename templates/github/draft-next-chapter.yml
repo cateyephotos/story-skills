@@ -55,7 +55,7 @@ concurrency:
 
 env:
   STORY_DIR: "."
-  STORY_REF: "v0.14.0"
+  STORY_REF: "v0.15.0"
 
 jobs:
   draft:
