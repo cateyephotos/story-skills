@@ -332,7 +332,7 @@ bun run check:metadata
 ```
 
 ```text
-Metadata is aligned for story-skills@0.12.0.
+Metadata is aligned for story-skills@0.13.0.
 ```
 
 `scripts/check-metadata.js` fails if any of these drift:
@@ -518,7 +518,7 @@ Usage: bun run release <patch|minor|major|MAJOR.MINOR.PATCH> [--dry-run]
 Run from a branch other than `main`, it stops straight away:
 
 ```text
-Releasing 0.12.0 -> 0.12.1 (v0.12.1)
+Releasing 0.13.0 -> 0.13.1 (v0.13.1)
 Release aborted: releases are cut from main.
 ```
 
