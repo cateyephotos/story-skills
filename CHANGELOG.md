@@ -8,6 +8,8 @@ This file was started after 0.15.0. Entries for 0.15.0 back to 0.12.0 come from 
 
 ## [Unreleased]
 
+## [0.17.0] - 2026-09-28
+
 ### Added
 
 - Every error and warning has a stable code, listed by command under Finding codes in `docs/cli-reference.md`. Text output ends each `warning:` line with its code in brackets, such as `[stale-word-count]`, so the name to put in `story.md` `severity` is on the line. `severity` now takes any warning code (the eleven codes it took before keep their names) and applies wherever that warning is reported: `links`, `continuity`, `names`, `series`, `timeline`, `progress`, `compare`, and `context` as well as the checks that had codes, the checks `report`, `next`, and `doctor` summarise, and the warnings `build`, `export`, `add`, `rename`, `move`, and `remove` print, which exit 1 when one is promoted. An entry naming an error code is rejected: errors cannot be demoted or turned off. ([#278](https://github.com/danjdewhurst/story-skills/issues/278))
@@ -185,7 +187,8 @@ Added the release script. `rename` and `remove` no longer corrupt prose and unre
 
 First tagged release.
 
-[Unreleased]: https://github.com/danjdewhurst/story-skills/compare/v0.16.0...HEAD
+[Unreleased]: https://github.com/danjdewhurst/story-skills/compare/v0.17.0...HEAD
+[0.17.0]: https://github.com/danjdewhurst/story-skills/compare/v0.16.0...v0.17.0
 [0.16.0]: https://github.com/danjdewhurst/story-skills/compare/v0.15.0...v0.16.0
 [0.15.0]: https://github.com/danjdewhurst/story-skills/compare/v0.14.0...v0.15.0
 [0.14.0]: https://github.com/danjdewhurst/story-skills/compare/v0.13.0...v0.14.0
