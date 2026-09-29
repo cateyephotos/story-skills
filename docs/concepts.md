@@ -369,7 +369,7 @@ node skills/story-maintenance/scripts/story.js --version
 ```
 
 ```text
-0.17.0
+0.18.0
 ```
 
 Skills look for a CLI in this order:

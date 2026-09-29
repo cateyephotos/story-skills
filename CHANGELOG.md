@@ -8,6 +8,8 @@ This file was started after 0.15.0. Entries for 0.15.0 back to 0.12.0 come from 
 
 ## [Unreleased]
 
+## [0.18.0] - 2026-09-29
+
 ### Added
 
 - `reader-panel` skill: structured simulated reads of a chapter range by five personas (a target-genre reader, a line editor, a sensitivity persona that only flags passages for a human reader, a continuity-minded reader, and a first-page reader), each written to `feedback/round-{N}/{persona}.md` in the feedback-triage file shape with `source: simulated` and `persona`. Personas read only the chapters in range, with `story context` for background. `feedback-triage` labels a simulated round's synthesis, sorts its findings as single-reader, and treats its `ready` verdict as ready for human readers only. ([#293](https://github.com/danjdewhurst/story-skills/issues/293))
@@ -219,7 +221,8 @@ Added the release script. `rename` and `remove` no longer corrupt prose and unre
 
 First tagged release.
 
-[Unreleased]: https://github.com/danjdewhurst/story-skills/compare/v0.17.0...HEAD
+[Unreleased]: https://github.com/danjdewhurst/story-skills/compare/v0.18.0...HEAD
+[0.18.0]: https://github.com/danjdewhurst/story-skills/compare/v0.17.0...v0.18.0
 [0.17.0]: https://github.com/danjdewhurst/story-skills/compare/v0.16.0...v0.17.0
 [0.16.0]: https://github.com/danjdewhurst/story-skills/compare/v0.15.0...v0.16.0
 [0.15.0]: https://github.com/danjdewhurst/story-skills/compare/v0.14.0...v0.15.0
